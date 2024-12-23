@@ -9,3 +9,10 @@ And: ve o nome "Guilherme" na lista
 When: clica no nome "Guilherme"
 Then: vê as informações do perfil de "Guilherme"
 
+Scenario: Abrir conversa com usuário da lista de contatos
+Given: O usuário “Luan Romancini” está na página “lista de contatos”
+And: vê o perfil do "Guilherme" aberto
+And: vê o botão "abrir chat" ao lado do perfil
+When: clica no botão "abrir conversa"
+Then: Uma aba de conversa é aberta com “Guilherme”
+And: vê uma conversa vazia com “Guilherme”
