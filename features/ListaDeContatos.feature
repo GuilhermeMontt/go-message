@@ -15,4 +15,4 @@ And: vê o perfil do "Guilherme" aberto
 And: vê o botão "abrir chat" ao lado do perfil
 When: clica no botão "abrir conversa"
 Then: Uma aba de conversa é aberta com “Guilherme”
-And: vê uma conversa vazia com “Guilherme”
+And: visualiza uma conversa vazia com “Guilherme”
